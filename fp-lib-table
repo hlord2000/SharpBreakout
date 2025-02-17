@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "SharpBreakout-Connector_FFC-FPC")(type "KiCad")(uri "${KIPRJMOD}/lib/SharpBreakout-Connector_FFC-FPC.pretty")(options "")(descr ""))
+)
