@@ -1910,7 +1910,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Power_Management:SiP32431DR3"
+		(symbol "Power_Management:SiP32432DR3"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1922,7 +1922,7 @@
 					)
 				)
 			)
-			(property "Value" "SiP32431DR3"
+			(property "Value" "SiP32432DR3"
 				(at 0 6.35 0)
 				(effects
 					(font
@@ -1948,7 +1948,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "10 pA, Ultra Low Leakage and Quiescent Current, Load Switch with Reverse Blocking, High Enable, SC-70-6"
+			(property "Description" "10 pA, Ultra Low Leakage and Quiescent Current, Load Switch with Reverse Blocking, Low Enable, SC-70-6"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1975,7 +1975,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SiP32431DR3_0_1"
+			(symbol "SiP32432DR3_0_1"
 				(rectangle
 					(start -5.08 5.08)
 					(end 5.08 -5.08)
@@ -1988,7 +1988,7 @@
 					)
 				)
 			)
-			(symbol "SiP32431DR3_1_1"
+			(symbol "SiP32432DR3_1_1"
 				(pin passive line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -2010,7 +2010,7 @@
 				(pin input line
 					(at -7.62 0 0)
 					(length 2.54)
-					(name "ON"
+					(name "~{ON}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2854,7 +2854,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 80.01) (xy 137.16 80.01)
+			(xy 134.62 77.47) (xy 137.16 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2968,7 +2968,7 @@
 				)
 				(uuid "caeccaf6-9043-4102-95b3-1ccf80b135d2")
 			)
-			(table_cell "R1"
+			(table_cell "BCK"
 				(exclude_from_sim no)
 				(at 101.6 57.15 0)
 				(size 22.86 2.54)
@@ -3002,7 +3002,7 @@
 				)
 				(uuid "c4ef183a-69ce-43b8-b312-69f7bea1fc63")
 			)
-			(table_cell "BCK"
+			(table_cell "VA"
 				(exclude_from_sim no)
 				(at 101.6 59.69 0)
 				(size 22.86 2.54)
@@ -3036,7 +3036,7 @@
 				)
 				(uuid "f17ee22c-95f7-42e0-b663-2d5dfc8bf5de")
 			)
-			(table_cell "B1"
+			(table_cell "VCOM/VB"
 				(exclude_from_sim no)
 				(at 101.6 62.23 0)
 				(size 22.86 2.54)
@@ -3070,7 +3070,7 @@
 				)
 				(uuid "c104d239-44f6-42a8-9fa3-21baa0f2cbd2")
 			)
-			(table_cell "G1"
+			(table_cell "BSP"
 				(exclude_from_sim no)
 				(at 101.6 64.77 0)
 				(size 22.86 2.54)
@@ -3104,7 +3104,7 @@
 				)
 				(uuid "ec443905-6a50-4838-a4b2-ba7209e84e19")
 			)
-			(table_cell "VCOM/VB"
+			(table_cell "VDDIO_EN (VDD1_EN)"
 				(exclude_from_sim no)
 				(at 101.6 67.31 0)
 				(size 22.86 2.54)
@@ -3138,7 +3138,7 @@
 				)
 				(uuid "e1d7bd87-6802-4b94-b7c1-4cd086b0fa22")
 			)
-			(table_cell "VBUS_EN (VDD2_EN)"
+			(table_cell "R0"
 				(exclude_from_sim no)
 				(at 101.6 69.85 0)
 				(size 22.86 2.54)
@@ -3172,7 +3172,7 @@
 				)
 				(uuid "175bb531-fca1-4277-ba2e-d95eb8e6f8f1")
 			)
-			(table_cell "VDDIO_EN (VDD1_EN)"
+			(table_cell "G0"
 				(exclude_from_sim no)
 				(at 101.6 72.39 0)
 				(size 22.86 2.54)
@@ -3206,7 +3206,7 @@
 				)
 				(uuid "c01754f5-f457-487e-b5ce-e5502526f081")
 			)
-			(table_cell "GCK"
+			(table_cell "B0"
 				(exclude_from_sim no)
 				(at 101.6 74.93 0)
 				(size 22.86 2.54)
@@ -3240,7 +3240,7 @@
 				)
 				(uuid "7777c7c3-40e9-4b55-afe4-80a817a7b019")
 			)
-			(table_cell "INTB"
+			(table_cell "R1"
 				(exclude_from_sim no)
 				(at 101.6 77.47 0)
 				(size 22.86 2.54)
@@ -3274,7 +3274,7 @@
 				)
 				(uuid "10567286-e7ea-4372-90b5-40d3c1e4bfdd")
 			)
-			(table_cell "VA"
+			(table_cell "G1"
 				(exclude_from_sim no)
 				(at 101.6 80.01 0)
 				(size 22.86 2.54)
@@ -3308,7 +3308,7 @@
 				)
 				(uuid "32c88f34-e16b-4273-b1f0-2e8034f50d8d")
 			)
-			(table_cell "GSP"
+			(table_cell "B1"
 				(exclude_from_sim no)
 				(at 101.6 82.55 0)
 				(size 22.86 2.54)
@@ -3342,7 +3342,7 @@
 				)
 				(uuid "1e505f06-55c0-4777-9ed9-011ee9038296")
 			)
-			(table_cell "GEN"
+			(table_cell "GSP"
 				(exclude_from_sim no)
 				(at 101.6 85.09 0)
 				(size 22.86 2.54)
@@ -3376,7 +3376,7 @@
 				)
 				(uuid "1385f90c-d128-480f-a06c-680613fe53bc")
 			)
-			(table_cell "BSP"
+			(table_cell "GCK"
 				(exclude_from_sim no)
 				(at 101.6 87.63 0)
 				(size 22.86 2.54)
@@ -3410,7 +3410,7 @@
 				)
 				(uuid "ad2e56c0-22c0-44c3-b76d-839afb2eefc2")
 			)
-			(table_cell "R0"
+			(table_cell "INTB"
 				(exclude_from_sim no)
 				(at 101.6 90.17 0)
 				(size 22.86 2.54)
@@ -3444,7 +3444,7 @@
 				)
 				(uuid "eb57674a-3276-4d30-9cbd-0a0cc7f556e7")
 			)
-			(table_cell "G0"
+			(table_cell "GEN"
 				(exclude_from_sim no)
 				(at 101.6 92.71 0)
 				(size 22.86 2.54)
@@ -3478,7 +3478,7 @@
 				)
 				(uuid "87c80b7e-f682-4c64-8377-c55ff017d9c6")
 			)
-			(table_cell "B0"
+			(table_cell "VBUS_EN (VDD2_EN)"
 				(exclude_from_sim no)
 				(at 101.6 95.25 0)
 				(size 22.86 2.54)
@@ -3508,22 +3508,22 @@
 		(uuid "069122ad-6150-42eb-b6f7-824aabe90ad8")
 	)
 	(label "GSP"
-		(at 149.86 123.19 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0be6a274-2b2d-4c5b-aee4-635bd0f6c7e5")
-	)
-	(label "GEN"
 		(at 137.16 125.73 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
+		)
+		(uuid "0be6a274-2b2d-4c5b-aee4-635bd0f6c7e5")
+	)
+	(label "GEN"
+		(at 149.86 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
 		)
 		(uuid "19bdad18-0cdd-419d-bb5c-77f8f74ce68d")
 	)
@@ -3538,22 +3538,22 @@
 		(uuid "1ea8f298-0832-4c95-8d49-a9a32c642e9b")
 	)
 	(label "GCK"
-		(at 137.16 120.65 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "232b1a10-fb8f-4801-945c-cb44061c35a1")
-	)
-	(label "BCK"
-		(at 149.86 74.93 0)
+		(at 149.86 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
+		)
+		(uuid "232b1a10-fb8f-4801-945c-cb44061c35a1")
+	)
+	(label "BCK"
+		(at 137.16 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
 		)
 		(uuid "24fd64bf-40bb-43b6-b15f-a89fd456b8f1")
 	)
@@ -3568,7 +3568,7 @@
 		(uuid "25ddb1a6-cec5-476f-bc96-c4bd4f017772")
 	)
 	(label "BSP"
-		(at 149.86 125.73 0)
+		(at 149.86 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3576,16 +3576,6 @@
 			(justify left bottom)
 		)
 		(uuid "2e677536-63ba-4db1-a186-3951fd0ac3e0")
-	)
-	(label "VBUS_EN"
-		(at 137.16 118.11 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2fae3ca9-f21d-4c07-bb0b-9323ec0d5300")
 	)
 	(label "GEN"
 		(at 229.87 95.25 180)
@@ -3608,7 +3598,7 @@
 		(uuid "32bc26ed-96cd-42f2-bf36-19c608cd60e4")
 	)
 	(label "B0"
-		(at 137.16 130.81 180)
+		(at 137.16 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3628,24 +3618,34 @@
 		(uuid "4ca2262f-eb24-4f89-8981-df531a7abe70")
 	)
 	(label "B1"
-		(at 137.16 77.47 180)
+		(at 149.86 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "5161851e-61a2-4d3c-8e43-efbe0a32aa70")
 	)
 	(label "R1"
-		(at 137.16 74.93 180)
+		(at 149.86 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "52ed3bb6-6e68-4da6-af00-ddba4fcd2ca0")
+	)
+	(label "VDDIO_EN"
+		(at 137.16 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "52ed3bb6-6e68-4da6-af00-ddba4fcd2ca0")
+		(uuid "58bee4b0-a49a-45a0-b68d-a2a0c5439649")
 	)
 	(label "VCOM"
 		(at 229.87 133.35 180)
@@ -3688,7 +3688,7 @@
 		(uuid "6cff7cbe-4536-453c-a9a7-d348441c39b7")
 	)
 	(label "G0"
-		(at 149.86 128.27 0)
+		(at 149.86 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3698,7 +3698,7 @@
 		(uuid "7257b910-2ea3-4895-9a5d-b2c16495d558")
 	)
 	(label "VCOM"
-		(at 134.62 80.01 180)
+		(at 134.62 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3718,12 +3718,12 @@
 		(uuid "87d2226f-aeca-4fed-af6d-e91459147edd")
 	)
 	(label "INTB"
-		(at 149.86 120.65 0)
+		(at 137.16 128.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "8a4a63c9-6b98-402b-b042-866d8bb1d45d")
 	)
@@ -3758,12 +3758,12 @@
 		(uuid "99bb9207-a134-485e-822b-ebbf5207bd80")
 	)
 	(label "VA"
-		(at 137.16 123.19 180)
+		(at 149.86 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "9a3bcbe2-b982-4cfa-95dc-757c7da959c6")
 	)
@@ -3788,7 +3788,7 @@
 		(uuid "9eb61ec4-975b-4095-91b5-dd93d3b12a1f")
 	)
 	(label "R0"
-		(at 137.16 128.27 180)
+		(at 137.16 118.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3798,24 +3798,24 @@
 		(uuid "a34b60ae-0923-4e6b-8e95-209cff8d3fb7")
 	)
 	(label "G1"
-		(at 149.86 77.47 0)
+		(at 137.16 123.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "c330e984-1c58-4efe-9d3c-62253f31d901")
 	)
-	(label "VDDIO_EN"
-		(at 149.86 118.11 0)
+	(label "VBUS_EN"
+		(at 137.16 130.81 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "cf017012-6bd6-4f2d-b901-671d36c03830")
+		(uuid "d31d0a0b-9953-42e1-8770-b4bf2cd36748")
 	)
 	(label "VDD2"
 		(at 229.87 85.09 180)
@@ -3848,7 +3848,7 @@
 		(uuid "e2d7efaa-a535-407e-9dfe-5c4aa97de64c")
 	)
 	(label "VB"
-		(at 137.16 80.01 180)
+		(at 137.16 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4376,7 +4376,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Power_Management:SiP32431DR3")
+		(lib_id "Power_Management:SiP32432DR3")
 		(at 194.31 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4393,7 +4393,7 @@
 				)
 			)
 		)
-		(property "Value" "SiP32431DR3"
+		(property "Value" "SiP32432DR3"
 			(at 194.31 110.49 0)
 			(effects
 				(font
@@ -4419,7 +4419,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10 pA, Ultra Low Leakage and Quiescent Current, Load Switch with Reverse Blocking, High Enable, SC-70-6"
+		(property "Description" "10 pA, Ultra Low Leakage and Quiescent Current, Load Switch with Reverse Blocking, Low Enable, SC-70-6"
 			(at 194.31 118.11 0)
 			(effects
 				(font
@@ -4456,7 +4456,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Power_Management:SiP32431DR3")
+		(lib_id "Power_Management:SiP32432DR3")
 		(at 194.31 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4473,7 +4473,7 @@
 				)
 			)
 		)
-		(property "Value" "SiP32431DR3"
+		(property "Value" "SiP32432DR3"
 			(at 194.31 80.01 0)
 			(effects
 				(font
@@ -4499,7 +4499,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10 pA, Ultra Low Leakage and Quiescent Current, Load Switch with Reverse Blocking, High Enable, SC-70-6"
+		(property "Description" "10 pA, Ultra Low Leakage and Quiescent Current, Load Switch with Reverse Blocking, Low Enable, SC-70-6"
 			(at 194.31 87.63 0)
 			(effects
 				(font
